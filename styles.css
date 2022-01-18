@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html{
+  background-image: url("assets/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar{
+  background-color: none;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  border-bottom: 2px solid #f6bd60;
+}
+
+.navbar a{
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.navbar a:hover{
+  background-color: #343a40;
+  color: white;
+  border-radius: 20px;
+}
+.heading{
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.heading h1{
+  padding-top: 150px;
+  font-size: 55px;
+  color: white;
+  text-shadow: 5px 3px 6px #000000;
+}
+.heading p{
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  color: white;
+}
+.btn{
+  background-color: transparent;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  border-radius: 15px;
+}
